@@ -45,7 +45,8 @@ categories: Software
 14. Right Click the file and select **Run 'file_reader' **
 15. The output will be printed in console.
   
-![image](https://user-images.githubusercontent.com/39100362/119181132-cd743700-ba8e-11eb-803d-a5c0b1c39382.png) ![image](https://user-images.githubusercontent.com/39100362/119181159-d402ae80-ba8e-11eb-98b1-8e38b51ff814.png)
+![image](https://user-images.githubusercontent.com/39100362/119184615-39589e80-ba93-11eb-9914-01a890c457ab.png) ![image](https://user-images.githubusercontent.com/39100362/119184641-3f4e7f80-ba93-11eb-8135-cf0d529ef2e0.png)
+
 
 
    
