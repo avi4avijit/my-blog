@@ -7,7 +7,8 @@ categories: Software
 
 # Create workspace in PyCharm and configure with Git Repository
 
-1. Open PyCharm. Go to File -> NewProject.. 
+1. Open PyCharm. Go to File -> NewProject.. \
+
 ![image](https://user-images.githubusercontent.com/39100362/119184087-8c7e2180-ba92-11eb-93e6-c56083a0ad80.png) ![image](https://user-images.githubusercontent.com/39100362/119184108-97d14d00-ba92-11eb-8a8a-55ce30607c26.png)
 
 
