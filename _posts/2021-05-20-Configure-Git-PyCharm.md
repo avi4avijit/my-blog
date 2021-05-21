@@ -8,8 +8,8 @@ categories: Software
 # Create workspace in PyCharm and configure with Git Repository
 
 1. Open PyCharm. Go to File -> NewProject.. 
+![image](https://user-images.githubusercontent.com/39100362/119184087-8c7e2180-ba92-11eb-93e6-c56083a0ad80.png) ![image](https://user-images.githubusercontent.com/39100362/119184108-97d14d00-ba92-11eb-8a8a-55ce30607c26.png)
 
-![image](https://user-images.githubusercontent.com/39100362/119177444-f5ad6700-ba89-11eb-952f-f586a3b739c2.png) ![image](https://user-images.githubusercontent.com/39100362/119177978-b59ab400-ba8a-11eb-9647-4fd24a9faa38.png)
 
 2. Provide the location (folder path). If the folder is not there, it will be created autometically.
 3. The project will be created as per the folder name.
