@@ -7,7 +7,7 @@ categories: Software
 
 # Create workspace in PyCharm and configure with Git Repository
 
-1. Open PyCharm. Go to File -> NewProject.. \
+1. Open PyCharm. Go to File -> NewProject.. 
 
 ![image](https://user-images.githubusercontent.com/39100362/119177444-f5ad6700-ba89-11eb-952f-f586a3b739c2.png) ![image](https://user-images.githubusercontent.com/39100362/119177978-b59ab400-ba8a-11eb-9647-4fd24a9faa38.png)
 
@@ -24,7 +24,7 @@ categories: Software
       Name: orogin
       URL : https://github.com/avi4avijit/python-basics
 ```
-8. Click OK and again OK. \
+8. Click OK and again OK. 
 
 ![image](https://user-images.githubusercontent.com/39100362/119179618-c3513900-ba8c-11eb-8a1c-b11fe9a43286.png)
 
@@ -32,7 +32,7 @@ categories: Software
 
 9. Right Click on the project. Goto Git -> Repository -> Pull..
 10. Click on Refresh Icon and 'Branches to merge' will populate. 
-11. Select 'origin/master'. Click **Pull** \
+11. Select 'origin/master'. Click **Pull** 
 
 ![image](https://user-images.githubusercontent.com/39100362/119180469-f811c000-ba8d-11eb-9c14-8a7dd15a58cb.png)  ![image](https://user-images.githubusercontent.com/39100362/119180605-20012380-ba8e-11eb-8a22-bb7fd2fcb11d.png)
 
