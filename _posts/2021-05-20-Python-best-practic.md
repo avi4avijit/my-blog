@@ -118,6 +118,7 @@ def main()
 18 & 30 Says variable name should be in snake case, should not be single charecter like 'f'
 
 So after correction the pylint shows:
+
 ![image](https://user-images.githubusercontent.com/39100362/119238952-5c528380-bb63-11eb-95aa-41b276378b99.png)
 
 Corrected Code:
