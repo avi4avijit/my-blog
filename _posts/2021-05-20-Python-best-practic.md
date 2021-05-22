@@ -27,7 +27,37 @@ Coding rules and guidelines ensure that software is:
 
 When developing code in PyCharm it will show underlying line indication if Style guide is not followed properly. If cursor is placed on that line it will show what is missing.
 
-Here is the Guide from Python site which describe details. https://www.python.org/dev/peps/pep-0008/
+Here is the Guide from Python site which describe details. [pep-008](https://www.python.org/dev/peps/pep-0008/)
 
 ## How to check your developed code follow the professional standard ?
+
+We can use Python static code analysis tool to check for programming error, enforching coding standard and hence can ensure it follows the professional grade. 
+Now there are couple of tools available in market. Example 
+- pylint
+- pyflakes
+- mypy
+- pysonar2
+- autopep8
+
+Every tool has their stronegr and weeaker points.
+As per the easy to use level Pylint is currently our good-to-go tool
+
+## How to install and use pylint ?
+
+I have used Pylint 2.8.2. 
+
+Install it using:
+```
+  pip install pylint
+  
+  [Ref](https://pypi.org/project/pylint/)
+```
+How to use?
+```
+  pylint file_reader.py
+```
+Example run screenshot bellow:
+![image](https://user-images.githubusercontent.com/39100362/119237671-a3d51180-bb5b-11eb-830c-b36578bd152e.png)
+
+
 
