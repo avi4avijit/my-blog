@@ -40,7 +40,7 @@ Now there are couple of tools available in market. Example
 - pysonar2
 - autopep8
 
-Every tool has their stronegr and weeaker points.
+Every tool has their stronger and weaker points.
 As per the easy to use level Pylint is currently our good-to-go tool
 
 ## How to install and use pylint ?
