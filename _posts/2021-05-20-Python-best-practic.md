@@ -20,3 +20,14 @@ Coding rules and guidelines ensure that software is:
 - Testable: It can be tested at the code level.
 - Maintainable: It can be maintained, even as your codebase grows.
 - Portable: It works the same in every environment.
+
+## What is PEP 8 -- Style Guide for Python Code ?
+
+![image](https://user-images.githubusercontent.com/39100362/119229754-010a9c00-bb37-11eb-9041-f2c8a0c1fe70.png)
+
+When developing code in PyCharm it will show underlying line indication if Style guide is not followed properly. If cursor is placed on that line it will show what is missing.
+
+Here is the Guide from Python site which describe details. https://www.python.org/dev/peps/pep-0008/
+
+## How to check your developed code follow the professional standard ?
+
