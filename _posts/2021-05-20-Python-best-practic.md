@@ -123,37 +123,37 @@ So after correction the pylint shows:
 
 Corrected Code:
 ```
-"""
-
-This python module will read all '.txt' files in a directory.
-
-"""
-1. # Import Module
-2. import os
-3. 
-4. # Folder Path "Enter Folder Path (local)"
-5. PATH = "C:/pytest"
-6. # Change the directory
-7. os.chdir(PATH)
-8.
-9.
-10.def read_text_file(file_path):
-11.    """ Read text File """
-12.    with open(file_path, 'r') as file_content:
-13.        print(file_content.read())
+1. """
+2. 
+3. This python module will read all '.txt' files in a directory.
+4. 
+5. """
+6. # Import Module
+7. import os
+8. 
+9. # Folder Path "Enter Folder Path (local)"
+10. PATH = "C:/pytest"
+11. # Change the directory
+12. os.chdir(PATH)
+13.
 14.
-15.
-16. def main():
-17.    """ main block """
-18.    # iterate through all file
-19.    for file in os.listdir():
-20.        # Check whether file is in text format or not
-21.        if file.endswith(".txt"):
-22.            file_path = f"{PATH}\\{file}"
-23.            # call read text file function
-24.            read_text_file(file_path)
-25.
-26.
-27.if __name__ == "__main__":
-28.    main()
+15.def read_text_file(file_path):
+16.    """ Read text File """
+17.    with open(file_path, 'r') as file_content:
+18.        print(file_content.read())
+19.
+20.
+21. def main():
+22.    """ main block """
+23.    # iterate through all file
+24.    for file in os.listdir():
+25.        # Check whether file is in text format or not
+26.        if file.endswith(".txt"):
+27.            file_path = f"{PATH}\\{file}"
+28.            # call read text file function
+29.            read_text_file(file_path)
+30.
+31.
+32.if __name__ == "__main__":
+33.    main()
 ```
