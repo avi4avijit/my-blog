@@ -13,12 +13,12 @@ A coding standard gives a consistent appearance to the codes written by differen
 
 It is essential because they help to ensure safety, security, and reliability. Coding principles and instructions make sure that the software is:
 
--Safe: Can be used without causing harm.
--Secure: Cannot be hacked.
--Reliable: Every time, it functions as it should.
--Testable: Can be tested at the code level.
--Maintainable: Can be maintained, even as your codebase grows.
--Portable: Works the same in every environment.
+- Safe: Can be used without causing harm.
+- Secure: Cannot be hacked.
+- Reliable: Every time, it functions as it should.
+- Testable: Can be tested at the code level.
+- Maintainable: Can be maintained, even as your codebase grows.
+- Portable: Works the same in every environment.
 
 Developing code in PyCharm will show an underlying line indication if the Style guide is not followed correctly. If the cursor is placed on that line, it will show what is missing.
 
@@ -60,5 +60,45 @@ How to use?
 Example run screenshot bellow:
 ![image](https://user-images.githubusercontent.com/39100362/119237671-a3d51180-bb5b-11eb-830c-b36578bd152e.png)
 
+Original Code:
+```
+"""
+
+This python module will read all '.txt' files in a directory.
+
+"""
+# Import Module
+import os
+
+# Folder Path "Enter Folder Path (local)"
+path = "C:/pytest"
+
+# Change the directory
+os.chdir(path)
+
+
+# Read text File
+def read_text_file(file_path):
+	with open(file_path, 'r') as f:
+		print(f.read())
+
+
+# main
+def main():
+
+	# iterate through all file
+	for file in os.listdir():
+		# Check whether file is in text format or not
+		if file.endswith(".txt"):
+			file_path = f"{path}\{file}"
+
+			# call read text file function
+			read_text_file(file_path)
+
+
+if __name__ == "__main__":
+	main()
+```
+  
 
 
