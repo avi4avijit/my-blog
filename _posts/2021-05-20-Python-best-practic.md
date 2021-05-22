@@ -7,19 +7,20 @@ categories: Software
 
 ## What is Coding Standard ?
 
-A coding standard gives a uniform appearance to the codes written by different engineers. It improves readability, and maintainability of the code and it reduces complexity also. It helps in code reuse and helps to detect error easily. It promotes sound programming practices and increases efficiency of the programmers.
+A coding standard gives a consistent appearance to the codes written by different engineers. It improves the readability and maintainability of the code, and it reduces complications. It helps to reuse the code and detect errors quickly. It promotes sound programming practices and increases the efficiency of the programmers.
 
 ## Why Coding Standard is important?
 
-It is important because they help to ensure safety, security, and reliability.
-Coding rules and guidelines ensure that software is:
+It is essential because they help to ensure safety, security, and reliability. Coding principles and instructions make sure that the software is:
 
-- Safe: It can be used without causing harm.
-- Secure: It can’t be hacked.
-- Reliable: It functions as it should, every time.
-- Testable: It can be tested at the code level.
-- Maintainable: It can be maintained, even as your codebase grows.
-- Portable: It works the same in every environment.
+-Safe: Can be used without causing harm.
+-Secure: Cannot be hacked.
+-Reliable: Every time, it functions as it should.
+-Testable: Can be tested at the code level.
+-Maintainable: Can be maintained, even as your codebase grows.
+-Portable: Works the same in every environment.
+
+Developing code in PyCharm will show an underlying line indication if the Style guide is not followed correctly. If the cursor is placed on that line, it will show what is missing.
 
 ## What is PEP 8 -- Style Guide for Python Code ?
 
@@ -49,9 +50,9 @@ I have used Pylint 2.8.2.
 Install it using:
 ```
   pip install pylint
-  
-  [Ref](https://pypi.org/project/pylint/)
-```
+```  
+[Ref: pylint site](https://pypi.org/project/pylint/)
+
 How to use?
 ```
   pylint file_reader.py
